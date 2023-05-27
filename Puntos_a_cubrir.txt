@@ -1,0 +1,25 @@
+- Crear el asistente virtual financiero IDEAL
+- Mejorar la salud financiera
+- Solución segura, escalable, adaptable a los diferentes perfiles de usuario
+- Herramienta que los asesore
+- El asistente debe de ser capaz de atender de su cliente
+- Se busca un asesor financiero virtual entregable
+
+Entregables	
+- Prototipo de la interfaz visual
+
+	- Diseño de flujos conversacionales (Diagramado)
+	- Se debe de contener información de productos
+	- Información personalizada
+
+Presentación y documento donde esto se defina:
+
+- Definir claramente el User Persona
+
+- ¿Cuál será la personalidad del asistente?
+
+- ¿Canales de interacción propuestos?
+
+- Caso de Neogcio
+
+- Cotización de la implementación en el negocio
