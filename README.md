@@ -6,7 +6,7 @@ un cliente a nuestra API de asistente virtual potenciado con inteligencia artifi
 
 Imagen MVP construido durante el concurso:
 
-![alt text](https://github.com/gerardmtz/hackBanorte/blob/master/aistente_maya.png?raw=true)
+![alt text](https://github.com/gerardmtz/hackBanorte/master/aistente_maya.png?raw=true)
 
 
 
