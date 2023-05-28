@@ -6,7 +6,10 @@
         <link rel="stylesheet" href="../styles/styles.css">
     </head>
     <body>
-        <label for="name">username:</label>
+
+        <!-- Implementación usando pantalla completa en el agente -->
+
+        <!-- <label for="name">username:</label>
         <input id="name" name="name" type="text" value="John Doe" placeholder="tu nombre aquí..." />
         <hr/>
         <label for="name">message:</label>
@@ -53,6 +56,22 @@
 
             // Register the click handler on a button
             $("#send").on("click", handleSend);
+        </script> -->
+
+        <!-- Implementación de widget embebido -->
+
+        <script type="text/javascript">
+            (function(d, t) {
+                var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+                v.onload = function() {
+                window.voiceflow.chat.load({
+                verify: { projectID: '64729bf6dacc1800065035f7' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+            });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
         </script>
     </body>
 </html>
