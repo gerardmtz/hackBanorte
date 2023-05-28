@@ -6,4 +6,7 @@ un cliente a nuestra API de asistente virtual potenciado con inteligencia artifi
 
 Imagen MVP construido durante el concurso:
 
+<img src="./asistente_maya.png"/>
+
+
 
