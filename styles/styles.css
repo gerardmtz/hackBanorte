@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #EB0029;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color: #DB0026;
+}
+
+
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li b {
+  font-weight: bold;
+}
+
+/* Estilos específicos para la aplicación de chat */
+#root {
+  margin-top: 20px;
+}
+
+#root li:nth-child(even) {
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 5px;
+}
